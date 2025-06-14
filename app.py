@@ -5,6 +5,7 @@ from matplotlib.patches import Wedge
 # 设置matplotlib中文字体和负号正常显示
 plt.rcParams['font.sans-serif'] = ['SimHei']
 plt.rcParams['axes.unicode_minus'] = False
+plt.rcParams['font.sans-serif'] = ['Microsoft YaHei', 'Arial Unicode MS', 'sans-serif']
 
 st.set_page_config(page_title="恋爱脑风险评估器 💖🧠", layout="centered")
 
