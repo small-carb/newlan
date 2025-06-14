@@ -2,6 +2,9 @@ import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.patches import Wedge
+# 设置matplotlib中文字体和负号正常显示
+plt.rcParams['font.sans-serif'] = ['SimHei']
+plt.rcParams['axes.unicode_minus'] = False
 
 st.set_page_config(page_title="恋爱脑风险评估器 💖🧠", layout="centered")
 
