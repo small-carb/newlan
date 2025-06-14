@@ -5,7 +5,7 @@ from matplotlib.patches import Wedge
 import matplotlib.font_manager as fm
 
 # 动态加载本地字体（确保仓库有 msyh.ttf 文件）
-font_path = "msyhl.ttf"  # 微软雅黑字体文件
+font_path = "msyhl.ttc"  # 微软雅黑字体文件
 my_font = fm.FontProperties(fname=font_path)
 plt.rcParams['font.family'] = my_font.get_name()
 plt.rcParams['axes.unicode_minus'] = False
